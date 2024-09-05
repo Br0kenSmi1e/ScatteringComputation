@@ -71,7 +71,7 @@ The S-matrix is vital to scattering problem.
 The orthonormality of $psi_"sc" (k)$ proves the unitarity of S-matrix.
 ][
 
-#image("quantum.gif")
+#image("animation/quantum.gif")
 
 ]
 
@@ -343,7 +343,7 @@ $ mat(macron(psi)_(1);macron(psi)_(2);macron(psi)_(3);macron(psi)_(4))
 #place(bottom + left,
   dx: 250pt,
   dy: -34pt,
-  image("change_0_in_population.gif", height: 35%)
+  image("animation/change_0_in_population.gif", height: 35%)
 )
 
 #place(top + left,
@@ -375,25 +375,25 @@ $ mat(macron(psi)_(1);macron(psi)_(2);macron(psi)_(3);macron(psi)_(4))
 #place(top + right,
   dx: -102pt,
   dy: 62pt,
-  image("change_1_out_population.gif", height: 35%)
+  image("animation/change_1_out_population.gif", height: 35%)
 )
 
 #place(top + right,
   dx: 0pt,
   dy: 90pt,
-  image("change_1_out_phase.gif", width: 15%)
+  image("animation/change_1_out_phase.gif", width: 15%)
 )
 
 #place(bottom + right,
   dx: -102pt,
   dy: -32pt,
-  image("change_0_out_population.gif", height: 35%)
+  image("animation/change_0_out_population.gif", height: 35%)
 )
 
 #place(bottom + right,
   dx: 0pt,
   dy: -30pt,
-  image("change_0_out_phase.gif", width: 15%)
+  image("animation/change_0_out_phase.gif", width: 15%)
 )
 
 == Phase Gate
@@ -407,13 +407,13 @@ $ mat(macron(psi)_(1);macron(psi)_(2);macron(psi)_(3);macron(psi)_(4))
 #place(bottom + left,
   dx: 240pt,
   dy: -34pt,
-  image("phase_0_in_population.gif", height: 35%)
+  image("animation/phase_0_in_population.gif", height: 35%)
 )
 
 #place(top + left,
   dx: 240pt,
   dy: 62pt,
-  image("phase_0_in_population.gif", height: 35%)
+  image("animation/phase_0_in_population.gif", height: 35%)
 )
 
 #place(bottom + left,
@@ -449,25 +449,25 @@ $ mat(macron(psi)_(1);macron(psi)_(2);macron(psi)_(3);macron(psi)_(4))
 #place(top + right,
   dx: -112pt,
   dy: 62pt,
-  image("phase_1_out_population.gif", height: 35%)
+  image("animation/phase_1_out_population.gif", height: 35%)
 )
 
 #place(top + right,
   dx: 0pt,
   dy: 90pt,
-  image("phase_1_out_phase.gif", width: 15%)
+  image("animation/phase_1_out_phase.gif", width: 15%)
 )
 
 #place(bottom + right,
   dx: -112pt,
   dy: -32pt,
-  image("phase_0_out_population.gif", height: 35%)
+  image("animation/phase_0_out_population.gif", height: 35%)
 )
 
 #place(bottom + right,
   dx: 0pt,
   dy: -30pt,
-  image("phase_0_out_phase.gif", width: 15%)
+  image("animation/phase_0_out_phase.gif", width: 15%)
 )
 
 == Two Qubit Gate: Controlled Phase Gate
@@ -505,7 +505,7 @@ can they gain non-trivial phase after interaction.
 #place(bottom + left,
   dx: 260pt,
   dy: -110pt,
-  image("hadamard_1_in_population.gif", height: 35%)
+  image("animation/hadamard_1_in_population.gif", height: 35%)
 )
 
 #place(bottom + left,
@@ -556,25 +556,25 @@ can they gain non-trivial phase after interaction.
 #place(top + right,
   dx: -60pt,
   dy: -15pt,
-  image("hadamard_1_out_population.gif", height: 35%)
+  image("animation/hadamard_1_out_population.gif", height: 35%)
 )
 
 #place(top + right,
   dx: 40pt,
   dy: 13pt,
-  image("hadamard_1_out_phase.gif", width: 15%)
+  image("animation/hadamard_1_out_phase.gif", width: 15%)
 )
 
 #place(bottom + right,
   dx: -60pt,
   dy: -109pt,
-  image("hadamard_0_out_population.gif", height: 35%)
+  image("animation/hadamard_0_out_population.gif", height: 35%)
 )
 
 #place(bottom + right,
   dx: 40pt,
   dy: -107pt,
-  image("hadamard_0_out_phase.gif", width: 15%)
+  image("animation/hadamard_0_out_phase.gif", width: 15%)
 )
 
 #place(left+bottom, dx: 160pt, dy: 20pt)[#rect([
@@ -676,22 +676,22 @@ $ e^(i theta) = - frac(u+4i cos ell sin k, u-4i cos ell sin k), ell = frac(p_1+p
 #place(top + right,
   dx: -151pt,
   dy: 97pt,
-  image("switch_pi4_3_population.gif", width: 12%)
+  image("animation/switch_pi4_3_population.gif", width: 12%)
 )
 #place(top + right,
   dx: -270pt,
   dy: -16pt,
-  image("switch_pi4_1_population.gif", width: 12%)
+  image("animation/switch_pi4_1_population.gif", width: 12%)
 )
 #place(top + right,
   dx: -115pt,
   dy: -16pt,
-  image("switch_pi4_2_population.gif", width: 12%)
+  image("animation/switch_pi4_2_population.gif", width: 12%)
 )
 #place(top + right,
   dx: 30pt,
   dy: 16pt,
-  image("swich_pi4_1_phase.gif", width: 18%)
+  image("animation/swich_pi4_1_phase.gif", width: 18%)
 )
 
 
@@ -715,57 +715,57 @@ $ e^(i theta) = - frac(u+4i cos ell sin k, u-4i cos ell sin k), ell = frac(p_1+p
 #place(top + right,
   dx: -151pt,
   dy: 267pt,
-  image("switch_pi2_3_population.gif", width: 12%)
+  image("animation/switch_pi2_3_population.gif", width: 12%)
 )
 #place(top + right,
   dx: -270pt,
   dy: 154pt,
-  image("switch_pi2_1_population.gif", width: 12%)
+  image("animation/switch_pi2_1_population.gif", width: 12%)
 )
 #place(top + right,
   dx: -115pt,
   dy: 154pt,
-  image("switch_pi2_2_population.gif", width: 12%)
+  image("animation/switch_pi2_2_population.gif", width: 12%)
 )
 #place(top + right,
   dx: 30pt,
   dy: 184pt,
-  image("swich_pi2_2_phase.gif", width: 18%)
+  image("animation/swich_pi2_2_phase.gif", width: 18%)
 )
 == C-Phase Gate
 
 #place(top + left,
   dx: 136pt,
   dy: -16pt,
-  image("cp_comp_in.gif", height: 50%)
+  image("animation/cp_comp_in.gif", height: 50%)
 )
 #place(bottom + left,
   dx: 0pt,
   dy: 16pt,
-  image("cp_medi_in.gif", height: 50%)
+  image("animation/cp_medi_in.gif", height: 50%)
 )
 
 #place(bottom + left,
   dx: 376pt,
   dy: 16pt,
-  image("cp_comp_out.gif", height: 50%)
+  image("animation/cp_comp_out.gif", height: 50%)
 )
 #place(top + left,
   dx: 376pt,
   dy: -16pt,
-  image("cp_medi_out.gif", height: 50%)
+  image("animation/cp_medi_out.gif", height: 50%)
 )
 
 #place(bottom + right,
   dx: 0pt,
   dy: 16pt,
-  image("cp_phase.gif", height: 50%)
+  image("animation/cp_phase.gif", height: 50%)
 )
 
 #place(bottom + left,
   dx: 340pt,
   dy: -23pt,
-  image("cp_inter.gif", height: 40%)
+  image("animation/cp_inter.gif", height: 40%)
 )
 
 #place(top + right,
@@ -1283,7 +1283,7 @@ The S-matrix is vital to scattering problem.
 The orthonormality of $psi_"sc" (k)$ proves the unitarity of S-matrix.
 ][
 
-#image("quantum.gif")
+#image("animation/quantum.gif")
 
 ]
 
